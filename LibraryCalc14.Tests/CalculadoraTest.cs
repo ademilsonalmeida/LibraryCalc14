@@ -49,6 +49,18 @@ namespace LibraryCalc14.Tests
 
             Assert.True((valor1 - valor2) == resultado);
         }
+
+        [Fact]
+        public void Subtracao3ValoresSucesso()
+        {
+            var valor1 = 10;
+            var valor2 = 5;
+            var valor3 = 4;
+
+            var resultado = calculadora.Subtrair(valor1, valor2, valor3);
+
+            Assert.True((valor1 - valor2 - valor3) == resultado);
+        }
         #endregion
 
         #region Testes Divisão
