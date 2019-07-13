@@ -5,3 +5,25 @@ Biblioteca de operações matemáticas
 
 ## How to install
 Install-Package LibraryCalc14 -Version 1.0.3
+
+## How to use
+```cs
+namespace Example
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var calculadora = new Calculadora();
+
+            var soma = calculadora.Somar(5, 6);
+
+            Console.WriteLine($"O valor da soma: {soma}");
+
+            var soma3 = calculadora.Somar(5, 5, 5);
+
+            Console.WriteLine($"O valor da soma: {soma3}");
+        }
+    }
+}
+```
