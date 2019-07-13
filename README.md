@@ -3,6 +3,8 @@ Biblioteca de operações matemáticas
 
 [![Build status](https://ci.appveyor.com/api/projects/status/kr3nm0ko23j48kp1/branch/master?svg=true)](https://ci.appveyor.com/project/ademilsonalmeida/librarycalc14/branch/master)
 
+![Nuget](https://img.shields.io/nuget/dt/LibraryCalc14.svg)
+
 ## How to install
 Install-Package LibraryCalc14 -Version 1.0.3
 
